@@ -102,7 +102,7 @@ function About() {
                                 <input 
                                     type="text"
                                         className='email-input' 
-                                        value="samclarkwork99@gmail.com">
+                                        defaultValue="samclarkwork99@gmail.com">
                                 </input>
                         
                             <a href="https://www.github.com/samclark1999/" target="_blank" rel="noreferrer noopener">

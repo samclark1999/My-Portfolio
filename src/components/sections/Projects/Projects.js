@@ -11,13 +11,13 @@ function Projects() {
           <ul className='cards__items'>
             <CardItem
               src='images/clark.png'
-              text='This is a Full-Stack Application which creates a user that can deposit, withdraw and check balance. Front-end developed using React and the Back-end uses MongoDB, and Node.'
+              text='This is a Full Stack Application which creates a user that can deposit, withdraw and check balance. Front End is developed using React and the Back-end uses MongoDB, and Node.'
               label='Click for Readme'
               path='//www.github.com/samclark1999/Clark-Financial-Full-Stack#readme'
             />
             <CardItem
               src='images/todo.png'
-              text="A To-Do List application developed using React. UseState and UseEffect utilized to sort To-Do's on a dropdown list. Stores To-Do's locally on server using JavaScript."
+              text="A To-Do List application developed using React. UseState and UseEffect utilized to sort To-Do's on a dropdown list. Also stores To-Do's locally on server using JavaScript."
               label='Click for Readme'
               path='//www.github.com/samclark1999/to_Do_List#readme'
             />
@@ -35,19 +35,19 @@ function Projects() {
           <ul className='cards__items'>
             <CardItem
               src='images/cart.png'
-              text="This is a shopping cart that allows users to add items to cart and restock items using a Strapi database. I also used Postman to test API's to and from Strapi."
+              text="This is a shopping cart that allows users to add items to a cart and restock items using a Strapi database. I also used Postman to test API's to and from Strapi."
               label='Click for Readme'
               path='//www.github.com/samclark1999/Shopping_Cart#readme'
             />
             <CardItem
               src='images/web.png'
-              text='This is a Holy Grail formatted website with React that uses Node,and Redis on top of Docker. Also used SuperAgent to communicate to the server.'
+              text='This is a Holy Grail formatted website with React that uses Node, and Redis on top of Docker. Also uses SuperAgent to communicate to the server.'
               label='Click for Readme'
               path='//www.github.com/samclark1999/Full-Stack-Holy-Grail#readme'
             />
             <CardItem
               src='images/tic.png'
-              text='The classic game developed using React. UseState keeps track of player turn as well as winner.'
+              text="The classic game developed using React. UseState keeps track of player's turn as well as winner."
               label='Click for Readme'
               path='//www.github.com/samclark1999/Tic_Tac_Toe#readme'
             />
@@ -55,13 +55,13 @@ function Projects() {
           <ul className='cards__items'>
             <CardItem
               src='images/pacman.png'
-              text='This is a simple JavaScript and CSS project where Pacman is animated and bouces off the wall and flips the orientation of Pacman.'
+              text='This is a simple JavaScript and CSS project where Pacman is animated and bounces off of walls which flips the orientation of Pacman.'
               label='Click for Readme'
               path='//www.github.com/samclark1999/Pacman#readme'
             />
             <CardItem
               src='images/eyes.png'
-              text='This is a Javascript project where the eyes on the browser follow your mouse cursor using the onmouse function.'
+              text='This is a Javascript project where the eyes on the browser follow your mouse cursor using an onmouse function.'
               label='Click for Readme'
               path='//www.github.com/samclark1999/Eyes#readme'
             />
