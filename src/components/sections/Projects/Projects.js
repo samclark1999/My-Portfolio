@@ -23,7 +23,7 @@ function Projects() {
             />
               <CardItem
               src='images/home.png'
-              text='This is my website I created using React. I also used Bootstrap, Google Fonts, React Icons and styled-components libraries. This app has a custom domain and is deplyed using AWS.'
+              text='This is my website I created using React, custom JS, and CSS. I also used Google Fonts, React Icons and styled-components libraries. This app has a custom domain and is deployed using AWS.'
               label='Click for Readme'
               path='//www.github.com/samclark1999/My-Portfolio#readme' 
             />
