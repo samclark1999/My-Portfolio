@@ -1,0 +1,274 @@
+.about-section {
+    height: 100vh;
+    background:rgba(2,0,36,1);
+    display: flex;
+    align-items: center;
+}
+
+.content-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.content-right {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    background:rgba(2,0,36,1);
+}
+
+.card-img {
+    width: 60%;
+    height: 60vh;
+    border-radius: 30px;
+    position: relative;
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top:-50px;
+    position: absolute;
+}
+
+.wrapper {
+    padding: 15px;
+    width: 80%;
+    position: relative;
+    top: 80px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.head {
+    color: dodgerblue;
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.head02 {
+    color: dodgerblue;
+    font-size: 34px;
+    margin-bottom: 70px;
+    text-align: left;
+}
+
+.par {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.tab {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+
+.tab1 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+   justify-content: center;
+   height: 40px;
+   width: 100%;
+   vertical-align: middle;
+   padding: 2px;
+}
+
+.contact-items {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+    position: relative;
+ 
+  }
+
+  .email-input {
+      font-size: 14px;
+      width: 200px;
+      height: 30px;
+      text-align: center;
+      position: relative;
+      vertical-align: top;
+      margin-left: 10px;
+  }
+
+  @media only screen and (max-width: 1204px) {
+      .email-input {
+          font-size: 12px;
+          width: 155px;
+          height: 23px;
+      }
+  }
+
+  @media only screen and (max-width: 1055px) {
+    .about-section{
+      display: inline-block;
+      width: 100%;
+      height: 600px;
+      padding-top: 50px;
+ 
+    }
+
+    .card-img {
+        width: 50%;
+        top: 80px;
+    }
+
+    .content-left {
+        height: 70%;
+        
+    }
+
+    .content-right {
+        display: inline-block;
+       
+        height: 100%;
+    }
+
+    .wrapper {
+        width: 60%;
+        left: 210px;
+        top: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+      .wrapper {
+          left: 190px;
+      }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .wrapper {
+        left: 170px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        left: 140px;
+    }
+    .head {
+        font-size: 28px;
+    }
+
+    .head02 {
+        font-size: 28px;
+    }
+
+    .par {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .card-img {
+        top: 100px;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .email-input{
+        font-size: 8px;
+        width: 110px;
+        height:17px
+    }
+
+    .head {
+        font-size: 26px;
+    }
+
+    .head02 {
+        font-size: 26px;
+    }
+
+    .par {
+        font-size: 18px;
+    }
+   
+}
+
+@media only screen and (max-width: 650px) {
+    .wrapper {
+        left: 125px;
+    }
+}
+
+
+@media only screen and (max-width: 577px) {
+    .wrapper {
+        left: 110px;
+    }
+    .card-img {
+        width: 45%;
+        height: 40vh;
+    }
+    .email-input {
+        font-size: 6px;
+        height: 15px;
+        width: 85px;
+        margin-top: -2px;
+    }
+    .head {
+        font-size: 24px;
+    }
+
+    .head02 {
+        font-size: 24px;
+    }
+
+    .par {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .wrapper {
+        left: 95px;
+    }
+    .head {
+        font-size: 20px;
+    }
+
+    .head02 {
+        font-size: 20px;
+    }
+
+    .par {
+        font-size: 14px;
+    }
+    .email-input {
+        font-size: 4px;
+        width: 60px;
+        height: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .wrapper {
+        left: 72px;
+    }
+    .card-img {
+        width: 35%;
+        height: 30vh;
+    }
+}
