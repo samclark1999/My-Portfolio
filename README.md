@@ -1,6 +1,6 @@
 # www.samclarksportfolio.com
 
-<img src="home.png" width="500px" height="500px">Logo</img>
+<img src="home.png" width="400px" height="400px"></img>
 
 
 ## Available Scripts
