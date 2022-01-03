@@ -1,5 +1,6 @@
 # www.samclarksportfolio.com
 
+<img src="home.png"></img>
 
 
 ## Available Scripts
