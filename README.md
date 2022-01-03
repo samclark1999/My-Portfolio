@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# www.samclarksportfolio.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="home.png"></img>
+
 
 ## Available Scripts
 
