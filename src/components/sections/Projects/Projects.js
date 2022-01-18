@@ -47,7 +47,7 @@ function Projects() {
             />
             <CardItem
               src='images/tic.png'
-              text="The classic game developed using React. UseState keeps track of player's turn as well as winner."
+              text="The classic game developed using React. UseState keeps track of a player's turn as well as winner."
               label='Click for Readme'
               path='//www.github.com/samclark1999/Tic_Tac_Toe#readme'
             />
