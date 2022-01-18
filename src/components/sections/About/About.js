@@ -85,7 +85,7 @@ function About() {
                     <h1 className='head'>Hello,</h1>
                     <p className='par'>I am a young professional with a Bachelor of Arts in Business Administration & Marketing from the University of Washington and a Professional Certificate in Coding: Full Stack Development with MERN from MIT x PRO.
                     </p>
-                    <p className='par'>I thrive in team centered envirnoments where I can explore my creativity. I'm interested in Front End opportunities where I can create unique user-friendly applications and websites. 
+                    <p className='par'>I thrive in team centered environments where I can explore my creativity. I'm interested in Front End opportunities where I can create unique user-friendly applications and websites. 
                     </p>
                     <h1 className='head02'>Sam</h1>
 
