@@ -1,6 +1,8 @@
 import React from 'react'
 import './HeroSection.css'
 import { Button } from '../../Button';
+import ats from './ATS.pdf'
+import { Link } from 'react-router-dom';
 
 function HeroSection(props) {
     return (
@@ -16,6 +18,9 @@ function HeroSection(props) {
                 >
                     VIEW RESUME
                 </Button>
+                <Link to={ats} target='blank_' rel='noreferrer noopener' className='btn-mobile'>
+                    <button className="ats">ATS FRIENDLY RESUME</button>
+                </Link>
             </div>
         </div>
     )
